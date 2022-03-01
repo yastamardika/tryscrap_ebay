@@ -9,8 +9,8 @@ products.each do |product|
     pages << {
         url: url,
         page_type: 'product',
-        vars: {
-            'name' => name,
+        vars:{
+            'name' => name
         }
     }
 end
