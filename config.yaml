@@ -16,3 +16,7 @@ exporters:
     exporter_type: json
     collection: products
     write_mode: pretty_array
+
+finisher:
+  file: ./finisher/finisher.rb
+  disabled: false
